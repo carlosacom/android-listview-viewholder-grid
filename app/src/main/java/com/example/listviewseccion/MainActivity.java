@@ -81,5 +81,6 @@ public class MainActivity extends AppCompatActivity {
         // enlazamon con nuestro adaptador perzonalizado
         MyAdapter myAdapter = new MyAdapter(this, R.layout.list_item, names);
         listView.setAdapter(myAdapter);
+
     }
 }
